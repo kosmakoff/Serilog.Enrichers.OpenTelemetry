@@ -3,7 +3,7 @@
     <PropertyGroup>
         <Title>Serilog.Enrichers.OpenTelemetry</Title>
         <Description>Serilog enricher to add OpenTelemetry TraceId and SpanId</Description>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Serilog.Enrichers.OpenTelemetry</PackageId>
